@@ -100,11 +100,10 @@ USER_AGENT = (
 )
 
 GROQ_MODELS = [
-    "llama-3.3-70b-versatile",
     "llama-3.1-8b-instant",
     "openai/gpt-oss-120b",
 ]
-FALLBACK_MODEL = "llama-3.1-8b-instant"
+FALLBACK_MODEL = "openai/gpt-oss-120b"
 
 LENGTH_PRESETS = {
     "Brief": (400, "Answer in 2-3 sentences. No preamble."),
