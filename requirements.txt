@@ -1,6 +1,6 @@
-streamlit==1.39.0
-groq==0.13.1
-requests==2.32.3
-PyMuPDF==1.25.2
-fastembed==0.5.1
-rank-bm25==0.2.2
+streamlit
+groq
+requests
+PyMuPDF
+fastembed
+rank-bm25
